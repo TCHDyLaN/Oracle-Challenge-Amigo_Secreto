@@ -29,9 +29,7 @@ function agregarAmigo(){ //Funcion para agregar un amigo a la lista
 }
 
 
-function limpiarCaja(){ //Funcion para limpiar la caja de texto
-    document.getElementById('amigo').value = ''; //Se limpia la caja de texto
-}
+let limpiarCaja = () => document.getElementById('amigo').value = ''; //Funcion para limpiar la caja de texto   
 
 
 function sortearAmigo(){ //Funcion para sortear un amigo
